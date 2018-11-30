@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.css'
 import Navbar from './Navbar.js'
 import About from './About.js'
+import Description from './Description.js'
 import './Main.css'
 
 class App extends Component {
@@ -10,6 +11,7 @@ class App extends Component {
       <div className="App">
         <div><Navbar /></div>
         <div><About /></div>
+        <div><Description /></div>
         
       </div>
     );
