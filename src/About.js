@@ -1,9 +1,7 @@
 import React from 'react'
 
 const About = () =>{
-  const handleClick = () => {
-
-  }
+  
     return (
     <header class="masthead text-center text-white d-flex">
       <div class="container my-auto">
@@ -16,7 +14,7 @@ const About = () =>{
           </div>
           <div class="col-lg-8 mx-auto">
             <p class="text-faded mb-5">We will work with you to build a fitness plan that is catered to your lifestyle and interests. We will include a nutrition plan along with the fitness plan to ensure your health success</p>
-            <button class="btn btn-primary btn-xl js-scroll-trigger" >Find Out More</button>
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
           </div>
         </div>
       </div>
