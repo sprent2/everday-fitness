@@ -1,6 +1,25 @@
 import React from 'react';
 
-const Navbar = () =>{
+class Navbar extends React.Component{
+  constructor(){
+    super()
+    this.state={
+    isTop: true
+  };
+  }
+  
+
+  componentDidMount() {
+    document.addEventListener('scroll', () => {
+      const isTop = window.scrollY < 100;
+      if (isTop !== this.state.isTop) {
+          this.setState({ isTop })
+      }
+    });
+  }
+
+  render()
+  {
     return (
         <nav className="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div className="container">
@@ -27,6 +46,7 @@ const Navbar = () =>{
         </div>
       </nav>
     )
+  }
 }
 
 export default Navbar;
