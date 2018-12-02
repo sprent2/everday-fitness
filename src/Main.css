@@ -218,68 +218,10 @@ header.masthead p {
 .service-box {
   max-width: 400px;
 }
-
-.reviews-box {
-  position: relative;
-  display: block;
-  max-width: 650px;
-  margin: 0 auto;
-}
-
-.reviews-box .reviews-box-caption {
-  position: absolute;
-  bottom: 0;
-  display: block;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  opacity: 0;
-  color: #fff;
-  background: rgba(240, 95, 64, 0.9);
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
-}
-
-.reviews-box .reviews-box-caption .reviews-box-caption-content {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-  text-align: center;
-}
-
-.reviews-box .reviews-box-caption .reviews-box-caption-content .project-category,
-.reviews-box .reviews-box-caption .reviews-box-caption-content .project-name {
-  padding: 0 15px;
+.reviews-content{
+  color:white;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-}
-
-.reviews-box .reviews-box-caption .reviews-box-caption-content .project-category {
-  font-size: 14px;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-.reviews-box .reviews-box-caption .reviews-box-caption-content .project-name {
-  font-size: 18px;
-}
-
-.reviews-box:hover .reviews-box-caption {
-  opacity: 1;
-}
-
-.reviews-box:focus {
-  outline: none;
-}
-
-@media (min-width: 768px) {
-  .reviews-box .reviews-box-caption .reviews-box-caption-content .project-category {
-    font-size: 16px;
-  }
-  .reviews-box .reviews-box-caption .reviews-box-caption-content .project-name {
-    font-size: 22px;
-  }
+  font-size: 2rem;
 }
 
 .text-primary {
