@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 import App from './App';
-import Form from './Form.js';
+import Form from './formComponents/Form.js';
 
 const Routes = () => {
     return (

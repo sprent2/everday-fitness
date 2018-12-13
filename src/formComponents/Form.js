@@ -1,10 +1,13 @@
-import React from 'react'
+import React from 'react';
 import {withRouter} from 'react-router-dom';
+import Description from './Description.js';
 
 class Form extends React.Component{
     render(){
         return(
-            <div>The Form</div>
+            <div>
+                <Description/>
+            </div>
         )
     }
 }
