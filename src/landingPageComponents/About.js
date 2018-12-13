@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link, withRouter } from 'react-router-dom'
+
 
 const About = () =>{
   
@@ -14,7 +16,7 @@ const About = () =>{
           </div>
           <div className="col-lg-8 mx-auto">
             <p className="text-faded mb-5">We will work with you to build a fitness plan that is catered to your lifestyle and interests. We will include a nutrition plan along with the fitness plan to ensure your health success</p>
-            <a className="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+            <Link to='/form'><a className="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a></Link>
           </div>
         </div>
       </div>
@@ -22,4 +24,4 @@ const About = () =>{
     )
 }
 
-export default About;
+export default withRouter(About);

@@ -7,20 +7,20 @@ import Description from './landingPageComponents/Description.js'
 import Services from './Services.js'
 import Reviews from './landingPageComponents/Reviews.js'
 import Contact from './landingPageComponents/Contact.js'
+
 import './Main.css'
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div><Navbar /></div>
-        <div><About /></div>
-        <div><Description /></div>
-        <div><Services /></div>
-         <div><Reviews /></div> 
-        <div><Contact /></div>
-        
-      </div>
+        <div className="App">
+          <div><Navbar /></div>
+          <div><About /></div>
+          <div><Description /></div>
+          <div><Services /></div>
+          <div><Reviews /></div> 
+          <div><Contact /></div>
+        </div>
     );
   }
 }
