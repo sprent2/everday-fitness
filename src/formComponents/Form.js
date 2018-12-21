@@ -9,6 +9,7 @@ class Form extends React.Component{
             <div>
                 <Description/>
                 <FormContent/>
+                <FormContent/>
             </div>
         )
     }

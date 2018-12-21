@@ -254,3 +254,16 @@ header.masthead p {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
 }
+
+
+.form-card{
+  padding: 20px;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.30), 0 2px 3px rgba(0,0,0,0.22);
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-top: 20px; /* Added */
+  width: 50rem;
+}
+.form-card input{
+  margin: 10px;
+}
